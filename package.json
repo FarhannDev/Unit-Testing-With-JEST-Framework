@@ -1,0 +1,19 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "Repositori mempelajari unit testing dengan JEST",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "build:preview": "tsc && node ./build/index.js",
+    "jest:test": "jest",
+    "jest:report": "npm run test -- --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
